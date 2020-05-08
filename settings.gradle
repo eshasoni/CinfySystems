@@ -1,2 +1,4 @@
 include ':app'
 rootProject.name='CinfySystems'
+include ':wheeloffortune'
+include ':wheeloffortune2'

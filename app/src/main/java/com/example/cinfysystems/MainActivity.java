@@ -18,27 +18,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         phoneno = findViewById( R.id.phone );
         password = findViewById( R.id.pass );
 
 
 
-        loginbtn = findViewById( R.id.loginbutton );
-        signupbtn = findViewById( R.id.loginbutton3 );
+        loginbtn = findViewById( R.id.loginbutton);
+        signupbtn = findViewById( R.id.button3 );
 
         signupbtn.setOnClickListener(new View.OnClickListener() {
             @Override
